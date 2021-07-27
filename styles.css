@@ -1,6 +1,15 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
 h1 {
   background-color: purple;
   color: white;
+  padding: 15px;
+}
+
+.search-bar {
+  border-bottom: 15px;
 }
 
 li {
@@ -14,13 +23,9 @@ h3 {
   text-align: center;
 }
 
-#card {
+.card {
   background-color: darkblue;
   color: white;
-}
-
-body {
-  font-family: "Lato", sans-serif;
 }
 
 footer {
@@ -29,6 +34,6 @@ footer {
   text-align: center;
 }
 
-#button {
+.button {
   line-height: 1.6em;
 }
