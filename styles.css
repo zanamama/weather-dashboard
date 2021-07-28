@@ -37,3 +37,15 @@ footer {
 .button {
   line-height: 1.6em;
 }
+
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-group {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
