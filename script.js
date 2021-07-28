@@ -38,6 +38,10 @@ function handleButton(cityReturn) {
       h3El.append(iconEl);
       var temp = $(".temp");
       temp.text("Temp " + data.main.temp);
+      var humidity = $(".humidity");
+      humidity.text("Humidity " + data.main.humidity);
+      var wind = $(".wind");
+      wind.text("Wind " + data.wind.speed + "MPH");
     });
 }
 //USER INTERACTIONS ============================================================
