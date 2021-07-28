@@ -1,7 +1,5 @@
 var searchCityBtn = $(".searchButton");
 
-var olCreated = false;
-
 //DEPENDENCIES =================================================================
 
 //DATA =========================================================================
@@ -41,7 +39,11 @@ function handleButton(cityReturn) {
       var humidity = $(".humidity");
       humidity.text("Humidity " + data.main.humidity);
       var wind = $(".wind");
-      wind.text("Wind " + data.wind.speed + "MPH");
+      wind.text("Wind " + data.wind.speed + " MPH");
+      console.log(wind);
+      //var uv = $(".uv");
+      var cityMain = $(".cityMain");
+      cityMain.text(city + " 07/28/21");
     });
 }
 //USER INTERACTIONS ============================================================

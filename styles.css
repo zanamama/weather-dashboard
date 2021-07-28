@@ -26,6 +26,8 @@ h3 {
 .card {
   background-color: darkblue;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer {
@@ -46,7 +48,7 @@ h6 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+.mainClass {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
