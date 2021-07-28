@@ -33,6 +33,7 @@ function handleButton(cityReturn) {
       var iconEl = $("<img>");
       iconEl.attr("src", icon);
       var h3El = $(".h3El");
+      h3El.empty();
       h3El.append(iconEl);
       var temp = $(".temp");
       temp.text("Temp " + data.main.temp);
@@ -52,9 +53,9 @@ function handleButton(cityReturn) {
 
 searchCityBtn.on("click", function (event) {
   event.preventDefault();
-  //console.log("clicked");
+  console.log("clicked");
   var cityInput = $("#cityInput").val();
-  //console.log("cityInput: " + cityInput);
+  console.log("cityInput: " + cityInput);
   handleButton(cityInput);
   console.log(cityInput);
 });
